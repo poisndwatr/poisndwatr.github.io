@@ -1,0 +1,89 @@
+
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    background-color: black;
+    color: rgb(222, 222, 222);
+    max-width: 100%;
+    font-size: 100%;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    margin: auto;
+    border: dashed thick;
+    border-color: blue blue darkblue darkblue;
+}
+
+nav{
+    text-align: right;
+    list-style: none;
+}
+
+#home{
+    float: left;
+    margin: 0;
+}
+
+li{
+    display: inline-block;
+    font-size: 1em;   
+    padding: 2%
+}
+
+li a:link, li a:visited{
+    color: rgb(222, 222, 222);
+    background-color: blue;
+    text-decoration: none;
+    border: solid thick blue;
+    font-weight: bold;
+    padding: 5px;
+}
+
+li a:hover, li a:active{
+    background-color: red;
+    border: solid thick red;
+}
+
+#content{
+    margin: auto;
+}
+
+#gen{
+    border: solid thin darkblue;
+    padding: 2%;
+    text-align: center;
+}
+
+h2{
+    font-size: 2em;
+    margin: auto;
+}
+
+#content p{
+    font-size: 1em;
+}
+
+footer{
+    background-color: blue;
+    padding: 2%;
+    margin-top: 2%;
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer a:link, footer a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover, footer a:active{
+    text-decoration: underline;
+}
